@@ -4,7 +4,7 @@ import generic.*;
 import java.awt.Color;
 import java.awt.Point;
 
-
+// salut c'est jules
 public class ConwayCell extends GenericCell {
 
 	private static final Color CELLS_ALIVE_COLOR = Color.BLUE;
