@@ -18,7 +18,7 @@ public class Simulator implements Simulable{
 	 
 	public void setGrid(Grid grid) {
 		this.grid=grid;
-	}
+	} 
 	
 	
 	@Override
