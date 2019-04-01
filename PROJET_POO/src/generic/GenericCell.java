@@ -2,6 +2,8 @@ package generic;
 
 import java.awt.Color;
 import java.awt.Point;
+import gui.Rectangle;
+
 import gui.*;
 
 public abstract class GenericCell implements Cell {
@@ -27,8 +29,7 @@ public abstract class GenericCell implements Cell {
 	}
 
 	public Rectangle getRepresentation() {
-		Rectangle r = new Rectangle((int) centre.getX(), (int) centre.getY(), getDrawColor(), getFillColor(), cellSize);
-		return r;
+		return (new Rectangle(centre.x, centre.y, getDrawColor(), getFillColor(), this.cellSize));
 	}
 
 	public Cell getNewCell(Cell[][] neighborhood) throws Exception{

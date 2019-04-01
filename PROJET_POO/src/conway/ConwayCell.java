@@ -17,7 +17,7 @@ public class ConwayCell extends GenericCell {
 	}
 
 	public ConwayCell(int i, int j, int cellSize) {
-		super(i, ;
+		super(i, j, cellSize);
 		alive = false;
 	}
 
@@ -37,6 +37,7 @@ public class ConwayCell extends GenericCell {
 	}
 
 	public Cell getNewCell(Cell[][] neighborhood) {
+		Cell c = new ConwayCell
 		if (getNbAliveNeighborhood(neighborhood) ==3) {
 			
 		}

@@ -3,5 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/soufi/OneDrive/COURS/L3/POO/PROJET/gui.jar"/>
+	<classpathentry kind="lib" path="/TP8/src/gui.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -2,10 +2,10 @@ package generic;
 
 import java.awt.Color;
 
-import gui.GUISimulator;
-import gui.Rectangle;
+import gui.*;
 
 public abstract class Grid {
+	
 	protected int gridWidth;
 	protected int cellWidth;
 	protected Cell[][] grid;
