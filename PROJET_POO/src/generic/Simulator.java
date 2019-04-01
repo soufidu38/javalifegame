@@ -15,7 +15,7 @@ public class Simulator implements Simulable{
 		gui = new GUISimulator(WINDOW_WIDTH,WINDOW_WIDTH, WINDOW_COLOR);
 		gui.setSimulable(this);
 	} 
-	
+	 
 	public void setGrid(Grid grid) {
 		this.grid=grid;
 	}
