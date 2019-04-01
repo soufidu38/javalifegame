@@ -37,5 +37,6 @@ public class Simulator implements Simulable{
 	@Override
 	public void restart() {
 		gui.reset();
+
 	}
 }
